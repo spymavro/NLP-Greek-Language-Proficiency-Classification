@@ -33,12 +33,12 @@ To set up this project for use or development, follow these steps:
   ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
--Install the required packages:
-   ```bash
-   pip install scikit-learn nltk spacy gensim
--After installing spacy, you may need to download a specific language model. For Greek, you can use:
-   ```bash
-   python -m spacy download el_core_news_sm
+- Install the required packages:
+  ```bash
+  pip install scikit-learn nltk spacy gensim
+- After installing spacy, you may need to download a specific language model. For Greek, you can use:
+  ```bash
+  python -m spacy download el_core_news_sm
 
 3. **Proceed with project setup and usage as required**:
 ### Explanation:
