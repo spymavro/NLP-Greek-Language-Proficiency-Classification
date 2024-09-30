@@ -22,7 +22,7 @@ Due to the dataset size and limitations, we organized the texts into two version
 
 This dual-source and dual-structure approach enabled better training for machine learning models across different proficiency levels.
 
-Due to privacy and licensing reasons, the dataset is not included in this repository.
+**Note**: Due to privacy and licensing reasons, the dataset is not included in this repository.
 
 ## Technologies Used
 - Python
