@@ -90,11 +90,10 @@ To set up this project for use or development, follow these steps:
 This approach ensures that users have a clear, step-by-step guide to setting up the project environment, even without a `requirements.txt` file.
 
 ## Usage
-Run the SVM classification model with the following command:
-```bash
+Run the SVM classification model with the following command: ```bash
 python svm_classifier.py 
 
-Note: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
+**Note**: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
 
 ## All Rights Reserved
 This project and all its contents are copyrighted and cannot be copied, modified, or distributed without express permission from the creator.
