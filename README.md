@@ -27,10 +27,12 @@ To set up this project for use or development, follow these steps:
    git clone https://github.com/spymavro/NLP-Greek-Language-Proficiency-Classification.git
    cd NLP-Greek-Language-Proficiency-Classification
 2. **Install the required Python packages**:
--Ensure you have Python installed on your system. If not, download and install it from python.org.
--It's recommended to create a virtual environment to keep dependencies required by different projects separate and to avoid conflicts:
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+- Ensure you have Python installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
+- It's recommended to create a virtual environment to keep dependencies required by different projects separate and to avoid conflicts:
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 -Install the required packages:
     pip install scikit-learn nltk spacy gensim
 -After installing spacy, you may need to download a specific language model. For Greek, you can use:
