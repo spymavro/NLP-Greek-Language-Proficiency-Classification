@@ -37,6 +37,26 @@ Due to privacy and licensing reasons, the dataset is not included in this reposi
 - Feature extraction with TF-IDF, n-grams, and Word2Vec.
 - Implementation of an SVM classifier fine-tuned using GridSearchCV.
 
+## Results
+We evaluated the performance of three models: Support Vector Machine (SVM), Multinomial Naive Bayes, and a Recurrent Neural Network (RNN). The results showed the following:
+
+1. **SVM Model**:
+   - **Test Accuracy**: 83.65%
+   - **Training Accuracy**: 87.71%
+   - **Best Parameters**: `C=10, gamma=0.01`
+   - The SVM model performed well overall, but there was some confusion between intermediate and advanced proficiency levels. The model demonstrated strong precision, recall, and F1-scores, particularly for the beginner category.
+   - For the **Condensed Three Levels Dataset**, the model performed best, whereas with the **Full CEFR Levels Dataset**, it showed overfitting (test accuracy: 54.32%).
+
+2. **Multinomial Naive Bayes**:
+   - **Test Accuracy**: 84.62%
+   - **Training Accuracy**: 88.31%
+   - Naive Bayes showed slightly better performance than SVM on the test set. It was effective at identifying beginner texts but had some difficulty distinguishing between intermediate and advanced levels.
+
+3. **RNN Model**:
+   - **Test Accuracy**: 73%
+   - **Training Accuracy**: 93%
+   - The RNN model exhibited strong performance on the training set but suffered from overfitting, resulting in a lower test accuracy. The model struggled most with intermediate and advanced level distinctions.
+
 ## Installation
 To set up this project for use or development, follow these steps:
 
