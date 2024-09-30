@@ -6,6 +6,22 @@ This repository is dedicated to the NLP Greek Language Proficiency Classificatio
 ## Motivation
 The goal of this project is to provide an automated tool for the classification of Greek language proficiency, aiding educational institutions and learners by delivering swift and accurate assessments of language capabilities.
 
+## Dataset
+The dataset used in this project was generated from two main sources:
+
+1. **329 authentic texts** from the [Greek Language Center's website](https://www.greek-language.gr/certification/dbs/teachers/index.html) (CEFR levels A1 to C2). These texts are categorized by proficiency levels and can be accessed publicly.
+2. **711 generated texts** using **ChatGPT-4o** under specific prompts. These texts were designed to simulate various language proficiency levels (A1 to C2), ensuring a balanced and diverse dataset for training the machine learning models.
+
+### Dataset Versions:
+Due to the dataset size and limitations, we organized the texts into two versions:
+
+- **Full CEFR Levels Dataset**: Texts classified into six levels (A1, A2, B1, B2, C1, C2).
+- **Condensed Three Levels Dataset**: Texts merged into three broader categories: beginner (A1 + A2), intermediate (B1 + B2), and advanced (C1 + C2).
+
+This dual-source and dual-structure approach enabled better training for machine learning models across different proficiency levels.
+
+Due to privacy and licensing reasons, the dataset is not included in this repository.
+
 ## Technologies Used
 - Python
 - Scikit-Learn
