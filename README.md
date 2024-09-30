@@ -88,8 +88,9 @@ To set up this project for use or development, follow these steps:
   - Additional steps for setting up `spacy` with the Greek language model are included since it's a common requirement for projects involving NLP with Greek text.
 
 ## Usage
-Run the SVM classification model with the following command: ```bash
-python svm_classifier.py 
+- Run the SVM classification model with the following command: 
+  ```bash
+  python svm_classifier.py 
 
 **Note**: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
 
