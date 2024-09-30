@@ -87,8 +87,6 @@ To set up this project for use or development, follow these steps:
   - Direct installation of each required Python package using `pip`.
   - Additional steps for setting up `spacy` with the Greek language model are included since it's a common requirement for projects involving NLP with Greek text.
 
-This approach ensures that users have a clear, step-by-step guide to setting up the project environment, even without a `requirements.txt` file.
-
 ## Usage
 Run the SVM classification model with the following command: ```bash
 python svm_classifier.py 
