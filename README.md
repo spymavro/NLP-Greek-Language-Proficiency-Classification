@@ -94,9 +94,6 @@ To set up this project for use or development, follow these steps:
 
 **Note**: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
 
-## All Rights Reserved
-This project and all its contents are copyrighted and cannot be copied, modified, or distributed without express permission from the creator.
-
 ## Contact
 For permissions or inquiries, please contact me at spyros.mauromatis@gmail.com
 
