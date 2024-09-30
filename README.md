@@ -54,7 +54,7 @@ This approach ensures that users have a clear, step-by-step guide to setting up 
 ## Usage
 Run the SVM classification model with the following command:
 ```bash
-python svm_classifier.py
+python svm_classifier.py 
 
 Note: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
 
