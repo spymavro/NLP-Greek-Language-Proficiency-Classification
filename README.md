@@ -1,7 +1,7 @@
 # NLP-Greek-Language-Proficiency-Classification
 
 ## Project Overview
-This repository is dedicated to the NLP Greek Language Proficiency Classification project, which focuses on classifying Greek texts into CEFR (Common European Framework of Reference for Languages) levels using three different machine learning models: Support Vector Machine (SVM), Multinomial Naive Bayes, and Recurrent Neural Networks (RNN). This project employs Natural Language Processing and machine learning techniques to assess language skills efficiently.
+This repository is dedicated to the NLP Greek Language Proficiency Classification project, which focuses on classifying Greek texts into [CEFR (Common European Framework of Reference for Languages)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions) levels using three different machine learning models: Support Vector Machine (SVM), Multinomial Naive Bayes, and Recurrent Neural Networks (RNN). This project employs Natural Language Processing and machine learning techniques to assess language skills efficiently.
 
 **Note**: This repository only includes the code for the SVM model, which I developed. Other machine learning models used in this project by my colleagues are not shared here.
 
